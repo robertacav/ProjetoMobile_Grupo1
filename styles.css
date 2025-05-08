@@ -1,0 +1,109 @@
+body {
+    background-color: #121212;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    top: -300px
+}
+
+.header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 50px;
+    position: relative;
+}
+
+.header h2,
+.header h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    margin: 0;
+}
+
+.header h2 {
+    font-size: 25px;
+}
+
+.header h3 {
+    font-size: 22px;
+}
+
+/* Formulário */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    bottom: 15%;
+    gap: 15px;
+}
+
+.form input {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #393738;
+    padding: 10px 15px;
+    color: white;
+    top: -150px
+}
+
+.form input::placeholder {
+    opacity: 0.4;
+    color: white;
+}
+
+.form input[type="email"] {
+    background-image: url('assets/email.webp');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form input[type="password"] {
+    background-image: url('assets/cadeado.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 30px;
+    text-align: center;
+
+
+}
+
+/*  Botão de Entrar */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 191px;
+    height: 56px;
+    background-color: #BB00CB;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #a300b2;
+}
