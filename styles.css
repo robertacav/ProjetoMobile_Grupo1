@@ -1,6 +1,5 @@
 body {
     background-color: #121212;
-    margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,6 +20,7 @@ body {
     color: #FFF;
     font-size: 50px;
     position: relative;
+    top: 35px;
 }
 
 .header h2,
@@ -28,6 +28,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #FFF;
     margin: 0;
+    top: 50px;
+    position: relative;
 }
 
 .header h2 {
@@ -36,6 +38,7 @@ body {
 
 .header h3 {
     font-size: 22px;
+    margin-top: 5px;
 }
 
 /* Formulário */
@@ -53,13 +56,13 @@ body {
     position: relative;
     width: 300px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 25px;
     border: none;
     font-size: 16px;
     background-color: #393738;
     padding: 10px 15px;
     color: white;
-    top: -150px
+    top: -85px
 }
 
 .form input::placeholder {
@@ -75,6 +78,7 @@ body {
     padding-left: 30px;
     text-align: center;
     margin-bottom: 25px;
+    background-size: 27px;
 }
 
 .form input[type="password"] {
@@ -84,9 +88,34 @@ body {
     background-size: 20px;
     padding-left: 30px;
     text-align: center;
+}
 
+/* Senha */
+.form h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    position: relative;
+    top: -58px;
+    left: -145px;
+    opacity: 80%;
+    font-size: 14px;
 
 }
+
+/* Email */
+.form h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;
+    position: relative;
+    top: 105px;
+    left: -145px;
+    opacity: 80%;
+    font-size: 14px;
+
+}
+
+
+
 
 /*  Botão de Entrar */
 .btn {
@@ -106,4 +135,19 @@ body {
 
 .btn:hover {
     background-color: #a300b2;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 191px;
+    height: 56px;
+    background-color: #121212;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
 }
