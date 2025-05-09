@@ -22,12 +22,12 @@
         <div class="caixa-login">
             <div class="logo">
                 <i class="fas fa-headphones"></i>
-                <h1>Nome do App</h1>
+                <h1>Melodia</h1>
             </div>
 
             <p class="subtitulo">Milhões de músicas. Um só lugar.</p>
 
-            <form class="formulario-login">
+            <form class="formulario-login" id="formLogin">
                 <div class="grupo-input">
                     <i class="fas fa-envelope icone"></i>
                     <input type="email" placeholder="E-mail" required>
@@ -38,7 +38,6 @@
                     <input type="password" id="senha" placeholder="Senha" required>
                     <i class="fa-solid fa-eye alternar-senha" id="alternarSenha"></i>
                 </div>
-                
 
                 <button type="submit" class="botao-login">Entrar</button>
 
@@ -46,11 +45,11 @@
                     <span>ou</span>
                 </div>
 
-                <button type="button" class="botao-social google">
+                <button type="button" class="botao-social google" id="btnGoogle">
                     <i class="fab fa-google"></i> Continuar com Google
                 </button>
 
-                <button type="button" class="botao-social apple">
+                <button type="button" class="botao-social apple" id="btnApple">
                     <i class="fab fa-apple"></i> Continuar com Apple
                 </button>
 
@@ -64,5 +63,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
