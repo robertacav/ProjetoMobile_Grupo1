@@ -34,12 +34,15 @@ body {
         transform: translateY(100vh) scale(0.5);
         opacity: 0;
     }
+
     10% {
         opacity: 0.3;
     }
+
     90% {
         opacity: 0.3;
     }
+
     100% {
         transform: translateY(-10vh) scale(1.2);
         opacity: 0;
@@ -226,7 +229,7 @@ body {
     color: #9c27b0;
 }
 
-/* Modal de simulação */
+/* modal de simulação */
 .modal-simulacao {
     position: fixed;
     top: 0;
@@ -261,7 +264,7 @@ body {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(to bottom right, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     transform: rotate(30deg);
     z-index: -1;
 }
@@ -322,7 +325,7 @@ body {
     background: #3367D6;
 }
 
-/* Mensagem de sucesso */
+/* mensagem de sucesso */
 .mensagem-sucesso {
     position: fixed;
     bottom: 30px;
@@ -346,19 +349,34 @@ body {
     font-size: 20px;
 }
 
-/* Animações */
+/* ------- animações ------- */
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes slideIn {
-    from { transform: translateX(100%); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 @keyframes fadeOut {
-    to { opacity: 0; transform: translateY(20px); }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
 }
 
 .modal-simulacao.fade-out,
@@ -366,7 +384,7 @@ body {
     animation: fadeOut 0.5s ease forwards;
 }
 
-/* Responsivo */
+/*-------  RESPONSIVIDADE -------*/
 @media (max-width: 480px) {
     .caixa-login {
         padding: 30px 20px;
@@ -388,11 +406,11 @@ body {
         padding: 20px;
         width: 95%;
     }
-    
+
     .modal-botoes {
         flex-direction: column;
     }
-    
+
     .modal-botoes button {
         width: 100%;
     }
