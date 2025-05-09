@@ -1,138 +1,263 @@
-body {
-    background-color: #121212;
-    min-height: 100vh;
+* {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.background-img {
-    position: absolute;
+body {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+    color: white;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.fundo-musical {
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 40%;
-    object-fit: cover;
-    z-index: 1;
+    height: 100%;
+    z-index: -1;
 }
 
-.header {
-    text-align: center;
-    position: relative;
-    z-index: 2;
-    color: #FFF;
-    margin-bottom: 50px;
+.nota-musical {
+    position: absolute;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.1);
+    animation: flutuarNota 15s linear infinite;
+    animation-delay: calc(var(--i) * -3s);
+}
+
+@keyframes flutuarNota {
+    0% {
+        transform: translateY(100vh) scale(0.5);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 0.3;
+    }
+
+    90% {
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: translateY(-10vh) scale(1.2);
+        opacity: 0;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.caixa-login {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 40px;
     width: 100%;
+    max-width: 450px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.header h1 {
+.caixa-login:hover {
+    /* hover pra subir a telinha */
+    transform: translateY(-5px);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo i {
     font-size: 50px;
-    margin-bottom: 10px;
+    color: #6a0dad;
+    margin-bottom: 15px;
 }
 
-.header h2 {
-    font-size: clamp(18px, 5vw, 25px);
-    margin: 0;
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
-.header h3 {
-    font-size: clamp(16px, 4.5vw, 22px);
-    margin: 5px 0 0 0;
+.logo h1 {
+    font-size: 32px;
+    font-weight: 700;
+    background: linear-gradient(to right, #9c27b0, #673ab7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
-.form {
+.subtitulo {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+}
+
+.formulario-login {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
-    z-index: 2;
-    gap: 15px;
-    width: 100%;
-    max-width: 300px;
-    margin-top: 90px;
+    gap: 20px;
 }
 
-.form input {
+.grupo-input {
+    position: relative;
+}
+
+.grupo-input .icone {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.grupo-input input {
     width: 100%;
-    height: 40px;
-    border-radius: 25px;
-    border: none;
+    padding: 15px 15px 15px 45px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    color: white;
     font-size: 16px;
-    background-color: #393738;
-    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.grupo-input input:focus {
+    outline: none;
+    border-color: #9c27b0;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.alternar-senha {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.botao-login {
+    background: linear-gradient(45deg, #9c27b0, #673ab7);
     color: white;
-}
-
-.form input::placeholder {
-    opacity: 0.4;
-    color: white;
-}
-
-.form input[type="email"] {
-    background-image: url('assets/email.webp');
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    background-size: 20px;
-    padding-left: 40px;
-    text-align: left;
-}
-
-.form input[type="password"] {
-    background-image: url('assets/cadeado.png');
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    background-size: 20px;
-    padding-left: 40px;
-    text-align: left;
-}
-
-.form h3,
-.form h4 {
-    color: #FFF;
-    opacity: 80%;
-    font-size: 14px;
-    margin: 0 0 5px 15px;
-    text-align: left;
-    position: relative;
-    top: 15px;
-    right: 140px;
-
-
-}
-
-.btn,
-.btn1 {
-    width: 100%;
-    max-width: 191px;
-    height: 56px;
     border: none;
-    border-radius: 30px;
-    color: white;
-    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(156, 39, 176, 0.3);
+}
+
+.botao-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(156, 39, 176, 0.4);
+}
+
+.botao-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.botao-social:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.botao-social.google i {
+    color: #db4437;
+}
+
+.botao-social.apple i {
+    color: #a2aaad;
+}
+
+.divisor {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.divisor::before,
+.divisor::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.divisor::before {
+    margin-right: 10px;
+}
+
+.divisor::after {
+    margin-left: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
     margin-top: 10px;
 }
 
-.btn {
-    background-color: #BB00CB;
+.links a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #a300b2;
+.links a:hover {
+    color: #9c27b0;
 }
 
-.btn1 {
-    background-color: transparent;
+@media (max-width: 480px) {
+    .caixa-login {
+        padding: 30px 20px;
+    }
+
+    .logo i {
+        font-size: 40px;
+    }
+
+    .logo h1 {
+        font-size: 28px;
+    }
+
+    .grupo-input input {
+        padding: 12px 12px 12px 40px;
+    }
 }
