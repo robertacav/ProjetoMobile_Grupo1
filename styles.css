@@ -1,0 +1,196 @@
+/* RESET & BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #000000, #111111, #222222);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+.topo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #000;
+    border-bottom: 2px solid #fff;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo i {
+    font-size: 36px;
+    color: #fff;
+}
+
+.logo h1 {
+    font-size: 28px;
+    background: linear-gradient(90deg, #fff, #aaa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav {
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.nav:hover {
+    background-color: #fff;
+    color: #000;
+    transform: translateY(-3px);
+}
+
+/* Apresentação */
+.apresentacao {
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 50px 320px;
+    gap: 50px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #252121;
+}
+
+.apresentacao img {
+    width: 100%;
+    max-width: 800px;
+    transition: transform 0.3s ease;
+}
+
+
+.apresentacao .texto {
+    max-width: 500px;
+    text-align: left;
+}
+
+.apresentacao .texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+}
+
+.apresentacao .texto p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.performances-absurdas {
+    text-align: center;
+    margin: 60px 0 20px;
+    font-size: 32px;
+    color: #f5f5f5;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 40px 0;
+    border-bottom: 2px solid #252121;
+}
+
+span {
+    color: #d85b08;
+    font-weight: bold;
+}
+
+.beneficios h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #f5f5f5;
+}
+
+.beneficio {
+    flex: 1 1 250px;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.beneficio i {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 15px;
+    color: #d85b08;
+}
+
+.beneficio h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+}
+
+.beneficio p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.modelos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 40px 0;
+    border-bottom: 2px solid #252121;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .apresentacao {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .logo {
+        position: static;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    .navbar {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .apresentacao img {
+        max-width: 350px;
+    }
+}
