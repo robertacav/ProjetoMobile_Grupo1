@@ -104,6 +104,8 @@ body {
 .apresentacao .texto {
     max-width: 500px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .apresentacao .texto h2 {
@@ -117,6 +119,34 @@ body {
     line-height: 1.6;
     color: #ccc;
 }
+
+.saibamais {
+    margin-top: 30px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+}
+
+#btn:hover,
+:focus {
+    color: #ffffff;
+    background: #e72503;
+    border: 1px solid #da2202;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ec0902, 0 0 20px #e21203, 0 0 50px #a52d08,
+        0 0 100px #df3704;
+}
+
 
 .performances-absurdas {
     text-align: center;
