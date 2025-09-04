@@ -16,6 +16,16 @@
     transform: translateY(0);
 }
 
+.active {
+    color: #ffffff;
+    background: #e72503;
+    border: 1px solid #da2202;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #ec0902, 0 0 20px #e21203, 0 0 50px #a52d08,
+     0 0 100px #df3704;
+}
+
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #000000, #111111, #222222);
@@ -57,10 +67,10 @@ body {
 
 .nav {
     text-decoration: none;
+    border-radius: 20px;
     padding: 12px 20px;
     font-weight: 600;
     color: #fff;
-    border-radius: 25px;
     transition: all 0.3s ease;
 }
 
@@ -85,7 +95,6 @@ body {
 }
 
 .apresentacao {
-    margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
