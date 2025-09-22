@@ -2,36 +2,55 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Luxury - Carros de luxo</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="carros.css" />
 </head>
 
 <body>
     <header class="topo">
         <div class="logo">
-            <img src="assets/logo.png" alt="Logo Carros de Luxo">
+            <img src="assets/logo.png" alt="Logo Carros de Luxo" />
         </div>
 
         <nav class="navbar" aria-label="Menu principal">
-            <a href="index.html" class="nav active">Início</a>
+            <a href="index.html" class="nav">Início</a>
             <a href="carros.html" class="nav">Carros</a>
             <a href="#" class="nav">Destaques</a>
             <a href="./SobreNos/sobrenos.html" class="nav">Sobre Nós</a>
-
         </nav>
-        <div class="hamburger">
+
+        <div class="hamburger" aria-label="Abrir menu" role="button" tabindex="0">
             <span></span>
             <span></span>
             <span></span>
         </div>
     </header>
 
+    <main>
+        <section class="modelos" id="lista-carros">
+            <!-- Carros carregados aqui pelo JS -->
+        </section>
+    </main>
 
+    <script src="carros.js"></script>
+    <script>
+        // Código hamburger menu para responsividade
+        const hamburger = document.querySelector('.hamburger');
+        const navbar = document.querySelector('.navbar');
 
+        hamburger.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
 
-    
+        hamburger.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                navbar.classList.toggle('active');
+            }
+        });
+    </script>
+</body>
 
-
+</html>
