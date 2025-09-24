@@ -28,7 +28,7 @@
             "cor": "preto",
             "imagem": "assets/modelo3.png",
             "descricao": "Sedan de luxo com 571 cv, conforto absoluto e interior artesanal com materiais premium.",
-            "novo": false
+            "novo": true
         },
         {
             "id": 4,
@@ -48,7 +48,7 @@
             "cor": "laranja",
             "imagem": "assets/modelo5.png",
             "descricao": "Superesportivo com 720 cv, acelera de 0 a 100 km/h em 2,9s, design aerodinâmico e futurista.",
-            "novo": false
+            "novo": true
         },
         {
             "id": 6,
@@ -57,7 +57,7 @@
             "valor": "R$ 60.000.000",
             "cor": "azul e preto",
             "imagem": "assets/modelo6.png",
-            "descricao": "Superesportivo com 1500 cv, velocidade máxima de 420 km/h, aceleração de 0 a 100 km/h em 2.4 segundos.",
+            "descricao": "O Bugatti Chiron é um superesportivo de altíssimo desempenho, equipado com um motor W16 de 8.0 litros e quatro turbocompressores, gerando 1.500 cavalos de potência e 1.600 Nm de torque. Ele acelera de 0 a 100 km/h em apenas 2,5 segundos e atinge uma velocidade máxima limitada de 420 km/h. Com um design elegante e aerodinâmico, sua carroceria é feita de fibra de carbono, garantindo leveza e resistência. O interior é luxuoso, com acabamentos de couro, madeira e tecnologia de ponta. Produzido em edição limitada de 500 unidades, o Chiron é um símbolo de exclusividade, desempenho extremo e engenharia de precisão.",
             "novo": true
         }
     ]
