@@ -547,3 +547,56 @@ span {
     padding-right: 100px;
     text-align: justify;
 }
+
+/* Estilos para os cards */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background-color: #111;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #da2202;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.card p {
+    margin-bottom: 15px;
+    color: #bebebe;
+}
+
+.card ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.card li {
+    margin-bottom: 8px;
+    color: #bebebe;
+}
+
+.card strong {
+    color: #da2202;
+}
