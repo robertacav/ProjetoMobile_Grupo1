@@ -1,3 +1,53 @@
+.navbar {
+    display: flex;
+    gap: 20px;
+  }
+  .nav {
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+.nav:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #000000, #111111, #222222);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #000000;
+    position: relative;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: -25px;
+    left: 200px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
 #lista-carros {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
