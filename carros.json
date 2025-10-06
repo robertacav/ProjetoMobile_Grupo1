@@ -7,7 +7,7 @@
             "valor": "R$ 5.500.000",
             "cor": "vermelho",
             "imagem": "assets/modelo1.png",
-            "descricao": "Superesportivo híbrido com 1000 cv, acelera até 340 km/h com design futurista.",
+            "descricao": "A Ferrari SF90 Stradale é um supercarro híbrido plug-in que representa o ápice da tecnologia e performance da marca italiana. Lançada em 2019, ela combina um motor V8 biturbo de 4.0 litros com três motores elétricos, totalizando impressionantes 1.000 cavalos de potência. Essa combinação permite à SF90 Stradale acelerar de 0 a 100 km/h em apenas 2,5 segundos, entregando uma experiência de condução emocionante e inovadora. Além da velocidade, o design aerodinâmico e futurista destaca sua identidade esportiva, enquanto o sistema híbrido contribui para maior eficiência e sustentabilidade sem perder o desempenho característico da Ferrari.",
             "novo": true
         },
         {
@@ -15,9 +15,9 @@
             "nome": "Lamborghini Aventador SVJ",
             "potencia": "770 cv",
             "valor": "R$ 6.200.000",
-            "cor": "laranja",
+            "cor": "roxo",
             "imagem": "assets/modelo2.png",
-            "descricao": "Potência de 770 cv, velocidade máxima de 350 km/h, design agressivo com portas 'tesoura'.",
+            "descricao": "A Lamborghini Aventador SVJ é uma verdadeira obra-prima da engenharia automotiva, combinando potência extrema com design agressivo e aerodinâmica avançada. Equipado com um motor V12 de 6.5 litros, o SVJ entrega incríveis 770 cavalos de potência, permitindo que acelere de 0 a 100 km/h em apenas 2,8 segundos. O modelo SVJ (Super Veloce Jota) destaca-se pelo uso intensivo de materiais leves, como fibra de carbono, e pela tecnologia Aerodinamica Lamborghini Attiva (ALA), que ajusta dinamicamente a pressão aerodinâmica para máxima performance nas curvas e estabilidade em alta velocidade. Com seu rugido marcante e visual imponente, a Aventador SVJ é o ápice do espírito selvagem e inovador da Lamborghini.",
             "novo": true
         },
         {
@@ -25,9 +25,9 @@
             "nome": "Rolls-Royce Ghost",
             "potencia": "571 cv",
             "valor": "R$ 3.800.000",
-            "cor": "preto",
+            "cor": "branco",
             "imagem": "assets/modelo3.png",
-            "descricao": "Sedan de luxo com 571 cv, conforto absoluto e interior artesanal com materiais premium.",
+            "descricao": "O Rolls-Royce Ghost é sinônimo de luxo e sofisticação em sua forma mais pura. Projetado para oferecer uma experiência de condução serena e refinada, ele combina um design elegante e discreto com tecnologia de ponta e materiais de altíssima qualidade. Sob o capô, o Ghost conta com um motor V12 biturbo que entrega potência suave e abundante, garantindo desempenho silencioso e confortável. Seu interior é um verdadeiro santuário, com acabamentos artesanais, couro premium e detalhes cuidadosamente elaborados para proporcionar o máximo conforto aos ocupantes. O Rolls-Royce Ghost é a escolha perfeita para quem busca exclusividade, prestígio e uma viagem marcada pelo requinte absoluto.",
             "novo": true
         },
         {
@@ -35,9 +35,9 @@
             "nome": "Maserati MC20",
             "potencia": "630 cv",
             "valor": "R$ 4.500.000",
-            "cor": "azul",
+            "cor": "branco",
             "imagem": "assets/modelo4.png",
-            "descricao": "Superesportivo com 630 cv, acelera de 0 a 100 km/h em 2,9s e design italiano espetacular.",
+            "descricao": "O Maserati MC20 é o superesportivo que marca o retorno da lendária marca italiana ao segmento de carros de alta performance. Com um design elegante e aerodinâmico, o MC20 é impulsionado por um motor V6 biturbo de 3.0 litros, que gera cerca de 630 cavalos de potência, garantindo uma aceleração de 0 a 100 km/h em cerca de 2,9 segundos. Equipado com tecnologia de ponta e chassis leve em fibra de carbono, o MC20 oferece uma dirigibilidade precisa e emocionante, unindo tradição e inovação. Seu interior combina luxo e esportividade, refletindo a essência da Maserati de forma moderna e arrojada.",
             "novo": true
         },
         {
@@ -45,9 +45,9 @@
             "nome": "McLaren 720S",
             "potencia": "720 cv",
             "valor": "R$ 5.800.000",
-            "cor": "laranja",
+            "cor": "azul",
             "imagem": "assets/modelo5.png",
-            "descricao": "Superesportivo com 720 cv, acelera de 0 a 100 km/h em 2,9s, design aerodinâmico e futurista.",
+            "descricao": "A McLaren 720S é um supercarro britânico que combina design futurista e desempenho extremo. Equipada com um motor V8 biturbo de 4.0 litros, a 720S gera impressionantes 720 cavalos de potência, permitindo acelerar de 0 a 100 km/h em apenas 2,9 segundos. Seu chassi é feito de fibra de carbono ultraleve, garantindo rigidez e agilidade excepcionais. O design aerodinâmico não só chama atenção, mas também otimiza o fluxo de ar para maximizar a performance e a estabilidade em alta velocidade. Com um interior focado no motorista, a McLaren 720S entrega uma experiência de condução pura, precisa e eletrizante.",
             "novo": true
         },
         {
@@ -57,7 +57,7 @@
             "valor": "R$ 60.000.000",
             "cor": "azul e preto",
             "imagem": "assets/modelo6.png",
-            "descricao": "O Bugatti Chiron é um superesportivo de altíssimo desempenho, equipado com um motor W16 de 8.0 litros e quatro turbocompressores, gerando 1.500 cavalos de potência e 1.600 Nm de torque. Ele acelera de 0 a 100 km/h em apenas 2,5 segundos e atinge uma velocidade máxima limitada de 420 km/h. Com um design elegante e aerodinâmico, sua carroceria é feita de fibra de carbono, garantindo leveza e resistência. O interior é luxuoso, com acabamentos de couro, madeira e tecnologia de ponta. Produzido em edição limitada de 500 unidades, o Chiron é um símbolo de exclusividade, desempenho extremo e engenharia de precisão.",
+            "descricao": "O Bugatti Chiron é o ápice da engenharia automotiva, um hipercarro que combina luxo extremo com uma potência colossal. Equipado com um motor W16 quadriturbo de 8.0 litros, o Chiron entrega impressionantes 1.500 cavalos de potência, alcançando velocidades superiores a 400 km/h. Sua aceleração é de tirar o fôlego, indo de 0 a 100 km/h em cerca de 2,4 segundos. Além do desempenho brutal, o Chiron é um símbolo de exclusividade, com um acabamento artesanal minucioso, materiais nobres e tecnologia de ponta que proporcionam conforto e sofisticação incomparáveis. É uma obra-prima que redefine os limites do possível em um automóvel.",
             "novo": true
         }
     ]
