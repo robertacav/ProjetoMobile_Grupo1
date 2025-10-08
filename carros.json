@@ -28,7 +28,7 @@
             "cor": "branco",
             "imagem": "assets/modelo3.png",
             "descricao": "O Rolls-Royce Ghost é sinônimo de luxo e sofisticação em sua forma mais pura. Projetado para oferecer uma experiência de condução serena e refinada, ele combina um design elegante e discreto com tecnologia de ponta e materiais de altíssima qualidade. Sob o capô, o Ghost conta com um motor V12 biturbo que entrega potência suave e abundante, garantindo desempenho silencioso e confortável. Seu interior é um verdadeiro santuário, com acabamentos artesanais, couro premium e detalhes cuidadosamente elaborados para proporcionar o máximo conforto aos ocupantes. O Rolls-Royce Ghost é a escolha perfeita para quem busca exclusividade, prestígio e uma viagem marcada pelo requinte absoluto.",
-            "novo": true
+            "novo": false
         },
         {
             "id": 4,
@@ -59,6 +59,16 @@
             "imagem": "assets/modelo6.png",
             "descricao": "O Bugatti Chiron é o ápice da engenharia automotiva, um hipercarro que combina luxo extremo com uma potência colossal. Equipado com um motor W16 quadriturbo de 8.0 litros, o Chiron entrega impressionantes 1.500 cavalos de potência, alcançando velocidades superiores a 400 km/h. Sua aceleração é de tirar o fôlego, indo de 0 a 100 km/h em cerca de 2,4 segundos. Além do desempenho brutal, o Chiron é um símbolo de exclusividade, com um acabamento artesanal minucioso, materiais nobres e tecnologia de ponta que proporcionam conforto e sofisticação incomparáveis. É uma obra-prima que redefine os limites do possível em um automóvel.",
             "novo": true
-        }
+        },
+        {
+            "id": 7,
+            "nome": "Nissan GT-R Nismo",
+            "potencia": "600 cv",
+            "valor": "R$ 1.300.500",
+            "cor": "chumbo",
+            "imagem": "assets/modelo7.png",
+            "descricao":"O Nissan GT-R Nismo 2024 é a versão mais potente e refinada do icônico superesportivo japonês. Com motor V6 biturbo de 3,8 litros e 600 cv, oferece desempenho excepcional aliado à tração integral e transmissão de dupla embreagem. Seu design aerodinâmico conta com fibra de carbono e freios cerâmicos, enquanto o interior traz acabamento premium e detalhes exclusivos. O GT-R Nismo 2024 é perfeito para quem busca alta performance com estilo e tradição." ,
+            "novo": false   
+         }    
     ]
 }
