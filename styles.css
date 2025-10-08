@@ -144,6 +144,11 @@ body {
     border: 1px solid #ffffff80;
     transition: 0.5s ease;
     user-select: none;
+
+}
+.botao-link{
+    text-decoration: none;
+    color: white;
 }
 
 #btn:hover,
