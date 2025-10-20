@@ -324,9 +324,10 @@ span {
 }
 
 .footer-section p {
+    text-decoration: none;
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #ccc;
+    color: #ffffff;
 }
 
 .footer-section ul {
@@ -379,6 +380,7 @@ span {
 }
 
 .contact-info i {
+    
     color: #d85b08;
     width: 20px;
 }
