@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vender Carro - Webmotors</title>
+    <link rel="stylesheet" href="trade.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="topo">
+            <div class="logo">
+                <img src="/assets/logo.png" alt="Webmotors">
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="navbar" aria-label="Menu principal">
+                <a href="#" class="nav active">Início</a>
+                <a href="/pages/carros/carros.html" class="nav">Carros</a>
+<<<<<<< HEAD
+=======
+                <a href="#" class="nav">Destaques</a>
+>>>>>>> 43f3524e8b3cb1c6093a2005ce4aad0804477944
+                <a href="/pages/trade/trade.html" class="nav">Trade</a>
+                <a href="/pages/SobreNos/sobrenos.html" class="nav">Sobre Nós</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="apresentacao">
+        <div class="texto fade-in">
+            <h2>Venda seu carro na <span>Webmotors</span></h2>
+            <p>Anuncie gratuitamente e venda seu carro de forma rápida e segura para milhares de compradores. A maior plataforma de negócios automotivos do Brasil.</p>
+            <a href="#form" class="saibamais">Anunciar Agora</a>
+        </div>
+        <div class="imagem fade-in">
+            <img src="/assets/carro.png" alt="Venda seu carro">
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="beneficios">
+        <div class="beneficio fade-in">
+            <i class="fas fa-users"></i>
+            <h3>Maior Audiência</h3>
+            <p>Milhões de compradores visitam nosso site todos os meses</p>
+        </div>
+        <div class="beneficio fade-in">
+            <i class="fas fa-rocket"></i>
+            <h3>Venda Rápida</h3>
+            <p>Seu carro vendido em até 30 dias ou nós compramos</p>
+        </div>
+        <div class="beneficio fade-in">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Segurança Garantida</h3>
+            <p>Processo 100% seguro com verificação de documentos</p>
+        </div>
+        <div class="beneficio fade-in">
+            <i class="fas fa-tag"></i>
+            <h3>Anúncio Gratuito</h3>
+            <p>Publique seu anúncio sem custo algum</p>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="form">
+        <div class="container">
+            <div class="form-container fade-in">
+                <h2 class="form-title">Informações do Veículo</h2>
+                <form id="car-form">
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="brand">Marca</label>
+                                <select class="form-control" id="brand" required>
+                                    <option value="">Selecione a marca</option>
+                                    <option value="fiat">Fiat</option>
+                                    <option value="volkswagen">Volkswagen</option>
+                                    <option value="chevrolet">Chevrolet</option>
+                                    <option value="ford">Ford</option>
+                                    <option value="toyota">Toyota</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="model">Modelo</label>
+                                <select class="form-control" id="model" required>
+                                    <option value="">Selecione o modelo</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="year">Ano</label>
+                                <select class="form-control" id="year" required>
+                                    <option value="">Selecione o ano</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2019">2019</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="price">Preço (R$)</label>
+                                <input type="text" class="form-control" id="price" placeholder="Ex: 45.000" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="description">Descrição do Veículo</label>
+                        <textarea class="form-control" id="description" rows="4" placeholder="Descreva as características, condições e itens do seu carro..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="photos">Fotos do Veículo</label>
+                        <input type="file" class="form-control" id="photos" multiple accept="image/*">
+                        <small style="color: #ccc;">Adicione até 12 fotos do seu carro</small>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="name">Seu Nome</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-block">Publicar Anúncio</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="modelos">
+        <h2 class="performances-absurdas">O que dizem nossos clientes</h2>
+        <div class="cards-container">
+            <div class="card fade-in">
+                <h2>Venda Rápida e Segura</h2>
+                <p>"Vendi meu carro em apenas uma semana através da Webmotors. O processo foi muito simples e seguro."</p>
+                <p><strong>Marcos Costa</strong> - Vendeu um Honda Civic 2018</p>
+            </div>
+            <div class="card fade-in">
+                <h2>Melhor Preço Garantido</h2>
+                <p>"Anunciei meu carro em vários sites, mas foi pela Webmotors que recebi mais propostas e consegui vender pelo melhor preço."</p>
+                <p><strong>Amanda Silva</strong> - Vendeu um Volkswagen Gol 2020</p>
+            </div>
+            <div class="card fade-in">
+                <h2>Processo Ágil</h2>
+                <p>"Fiquei impressionado com a quantidade de interessados. Em menos de 10 dias já tinha fechado o negócio. Recomendo!"</p>
+                <p><strong>Ricardo Ferreira</strong> - Vendeu um Ford Ka 2019</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="modelos">
+        <h2 class="performances-absurdas">Perguntas Frequentes</h2>
+        <div class="cards-container">
+            <div class="card fade-in">
+                <h2>Quanto custa para anunciar?</h2>
+                <p>Anunciar seu carro na Webmotors é totalmente gratuito. Você não paga nada para publicar seu anúncio e só realiza o pagamento se optar por recursos premium para destacar seu anúncio.</p>
+            </div>
+            <div class="card fade-in">
+                <h2>Quanto tempo leva para vender?</h2>
+                <p>O tempo de venda varia de acordo com o veículo, preço e condições de mercado. Em média, os carros anunciados na Webmotors são vendidos em até 30 dias.</p>
+            </div>
+            <div class="card fade-in">
+                <h2>Como funciona a negociação?</h2>
+                <p>Os interessados entram em contato diretamente com você através do telefone ou e-mail cadastrado no anúncio. Você negocia diretamente com o comprador.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Luxury</h3>
+                <p>A maior plataforma de negócios automotivos do Brasil, conectando compradores e vendedores de forma segura e eficiente.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#">Comprar Carro</a></li>
+                    <li><a href="#">Vender Carro</a></li>
+                    <li><a href="#">Tabela FIPE</a></li>
+                    <li><a href="#">Financiamento</a></li>
+                    <li><a href="#">Seguro Auto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contato</h4>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> (11) 4000-1000</p>
+                    <p><i class="fas fa-envelope"></i> contato@webmotors.com.br</p>
+                    <p><i class="fas fa-map-marker-alt"></i> São Paulo, SP</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Luxury. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const item = question.parentNode;
+                item.classList.toggle('active');
+            });
+        });
+
+        // Simulate model selection based on brand
+        document.getElementById('brand').addEventListener('change', function() {
+            const modelSelect = document.getElementById('model');
+            modelSelect.innerHTML = '<option value="">Selecione o modelo</option>';
+            
+            const models = {
+                'fiat': ['Argo', 'Cronos', 'Mobi', 'Uno'],
+                'volkswagen': ['Gol', 'Polo', 'Virtus', 'T-Cross'],
+                'chevrolet': ['Onix', 'Prisma', 'Tracker', 'S10'],
+                'ford': ['Ka', 'EcoSport', 'Ranger', 'Territory'],
+                'toyota': ['Corolla', 'Hilux', 'Yaris', 'SW4']
+            };
+            
+            if (this.value && models[this.value]) {
+                models[this.value].forEach(model => {
+                    const option = document.createElement('option');
+                    option.value = model.toLowerCase();
+                    option.textContent = model;
+                    modelSelect.appendChild(option);
+                });
+            }
+        });
+
+        // Hamburger menu toggle
+        document.getElementById('hamburger').addEventListener('click', function() {
+            document.getElementById('navbar').classList.toggle('active');
+        });
+
+        // Fade in animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const fadeElements = document.querySelectorAll('.fade-in');
+            
+            const fadeInOnScroll = function() {
+                fadeElements.forEach(element => {
+                    const elementTop = element.getBoundingClientRect().top;
+                    const elementVisible = 150;
+                    
+                    if (elementTop < window.innerHeight - elementVisible) {
+                        element.classList.add('show');
+                    }
+                });
+            };
+            
+            // Check on load
+            fadeInOnScroll();
+            
+            // Check on scroll
+            window.addEventListener('scroll', fadeInOnScroll);
+        });
+    </script>
+</body>
+</html>
