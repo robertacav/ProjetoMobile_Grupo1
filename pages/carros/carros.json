@@ -48,7 +48,7 @@
             "cor": "azul",
             "imagem": "assets/modelo5.png",
             "descricao": "A McLaren 720S é um supercarro britânico que combina design futurista e desempenho extremo. Equipada com um motor V8 biturbo de 4.0 litros, a 720S gera impressionantes 720 cavalos de potência, permitindo acelerar de 0 a 100 km/h em apenas 2,9 segundos. Seu chassi é feito de fibra de carbono ultraleve, garantindo rigidez e agilidade excepcionais. O design aerodinâmico não só chama atenção, mas também otimiza o fluxo de ar para maximizar a performance e a estabilidade em alta velocidade. Com um interior focado no motorista, a McLaren 720S entrega uma experiência de condução pura, precisa e eletrizante.",
-            "novo": true
+            "novo": false
         },
         {
             "id": 6,
@@ -69,6 +69,26 @@
             "imagem": "assets/modelo7.png",
             "descricao":"O Nissan GT-R Nismo 2024 é a versão mais potente e refinada do icônico superesportivo japonês. Com motor V6 biturbo de 3,8 litros e 600 cv, oferece desempenho excepcional aliado à tração integral e transmissão de dupla embreagem. Seu design aerodinâmico conta com fibra de carbono e freios cerâmicos, enquanto o interior traz acabamento premium e detalhes exclusivos. O GT-R Nismo 2024 é perfeito para quem busca alta performance com estilo e tradição." ,
             "novo": false   
-         }    
+         },  
+         {
+            "id": 8,
+            "nome": "mustang shelby gt500",
+            "potencia": "770 cv",
+            "valor": "R$ 1.349.900",
+            "cor": "branco com azul",
+            "imagem": "assets/modelo8.jpg",
+            "descricao": "O Ford Mustang Shelby GT500 é um muscle car poderoso, equipado com um motor V8 supercharged de 5.2 litros que entrega mais de 770 cavalos. Com design agressivo, aerodinâmico e tecnologia avançada, ele oferece desempenho extremo e uma experiência de direção emocionante, sendo um dos carros mais icônicos e potentes da linha Mustang.",
+            "novo": true
+        },
+        {
+            "id": 9,
+            "nome": "Dodge Challenger SRT Demon 170",
+            "potencia": "1039 cv",
+            "valor": "R$ 2.100.000 ",
+            "cor": "cinza",
+            "imagem": "assets/modelo10.png",
+            "descricao": "O Dodge Challenger SRT Demon 170 é um muscle car fora de série, projetado para entregar potência e desempenho extremos. Seu motor V8 supercharged de 6.2 litros produz incríveis 1.039 cavalos de potência, fazendo dele um dos carros de produção mais potentes e rápidos do mundo. Com foco total em arrancadas, o Demon 170 conta com tecnologias avançadas para maximizar tração e controle, como pneus drag radiais e sistemas eletrônicos de performance.",
+            "novo": true
+        }
     ]
 }
