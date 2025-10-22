@@ -7,7 +7,7 @@
             "valor": "R$ 5.500.000",
             "cor": "vermelho",
             "imagem": "assets/modelo1.png",
-            "descricao": "A Ferrari SF90 Stradale é um supercarro híbrido plug-in que representa o ápice da tecnologia e performance da marca italiana. Lançada em 2019, ela combina um motor V8 biturbo de 4.0 litros com três motores elétricos, totalizando impressionantes 1.000 cavalos de potência. Essa combinação permite à SF90 Stradale acelerar de 0 a 100 km/h em apenas 2,5 segundos, entregando uma experiência de condução emocionante e inovadora. Além da velocidade, o design aerodinâmico e futurista destaca sua identidade esportiva, enquanto o sistema híbrido contribui para maior eficiência e sustentabilidade sem perder o desempenho característico da Ferrari.",
+            "descricao": "Supercarro híbrido plug-in com motor V8 biturbo e três motores elétricos totalizando 1.000 cv. Acelera de 0 a 100 km/h em 2,5 segundos, combinando design aerodinâmico, eficiência e performance característica da Ferrari.",
             "novo": true
         },
         {
@@ -17,7 +17,7 @@
             "valor": "R$ 6.200.000",
             "cor": "roxo",
             "imagem": "assets/modelo2.png",
-            "descricao": "A Lamborghini Aventador SVJ é uma verdadeira obra-prima da engenharia automotiva, combinando potência extrema com design agressivo e aerodinâmica avançada. Equipado com um motor V12 de 6.5 litros, o SVJ entrega incríveis 770 cavalos de potência, permitindo que acelere de 0 a 100 km/h em apenas 2,8 segundos. O modelo SVJ (Super Veloce Jota) destaca-se pelo uso intensivo de materiais leves, como fibra de carbono, e pela tecnologia Aerodinamica Lamborghini Attiva (ALA), que ajusta dinamicamente a pressão aerodinâmica para máxima performance nas curvas e estabilidade em alta velocidade. Com seu rugido marcante e visual imponente, a Aventador SVJ é o ápice do espírito selvagem e inovador da Lamborghini.",
+            "descricao": "Supercarro híbrido com motor V8 biturbo e três motores elétricos de 1.000 cv. Aceleração de 0 a 100 km/h em 2,5 segundos. Design aerodinâmico que une alta performance, eficiência e identidade esportiva.",
             "novo": true
         },
         {
@@ -27,7 +27,7 @@
             "valor": "R$ 3.800.000",
             "cor": "branco",
             "imagem": "assets/modelo3.png",
-            "descricao": "O Rolls-Royce Ghost é sinônimo de luxo e sofisticação em sua forma mais pura. Projetado para oferecer uma experiência de condução serena e refinada, ele combina um design elegante e discreto com tecnologia de ponta e materiais de altíssima qualidade. Sob o capô, o Ghost conta com um motor V12 biturbo que entrega potência suave e abundante, garantindo desempenho silencioso e confortável. Seu interior é um verdadeiro santuário, com acabamentos artesanais, couro premium e detalhes cuidadosamente elaborados para proporcionar o máximo conforto aos ocupantes. O Rolls-Royce Ghost é a escolha perfeita para quem busca exclusividade, prestígio e uma viagem marcada pelo requinte absoluto.",
+            "descricao": "Sinônimo de luxo e sofisticação com motor V12 biturbo. Oferece experiência serena e refinada, com interior premium e acabamentos artesanais para máximo conforto e exclusividade.",
             "novo": false
         },
         {
@@ -37,7 +37,7 @@
             "valor": "R$ 4.500.000",
             "cor": "branco",
             "imagem": "assets/modelo4.png",
-            "descricao": "O Maserati MC20 é o superesportivo que marca o retorno da lendária marca italiana ao segmento de carros de alta performance. Com um design elegante e aerodinâmico, o MC20 é impulsionado por um motor V6 biturbo de 3.0 litros, que gera cerca de 630 cavalos de potência, garantindo uma aceleração de 0 a 100 km/h em cerca de 2,9 segundos. Equipado com tecnologia de ponta e chassis leve em fibra de carbono, o MC20 oferece uma dirigibilidade precisa e emocionante, unindo tradição e inovação. Seu interior combina luxo e esportividade, refletindo a essência da Maserati de forma moderna e arrojada.",
+            "descricao": "Superesportivo com motor V6 biturbo de 630 cv. Acelera de 0 a 100 km/h em 2,9 segundos. Design elegante e aerodinâmico, unindo tradição e inovação com tecnologia de ponta.",
             "novo": true
         },
         {
@@ -47,7 +47,7 @@
             "valor": "R$ 5.800.000",
             "cor": "azul",
             "imagem": "assets/modelo5.png",
-            "descricao": "A McLaren 720S é um supercarro britânico que combina design futurista e desempenho extremo. Equipada com um motor V8 biturbo de 4.0 litros, a 720S gera impressionantes 720 cavalos de potência, permitindo acelerar de 0 a 100 km/h em apenas 2,9 segundos. Seu chassi é feito de fibra de carbono ultraleve, garantindo rigidez e agilidade excepcionais. O design aerodinâmico não só chama atenção, mas também otimiza o fluxo de ar para maximizar a performance e a estabilidade em alta velocidade. Com um interior focado no motorista, a McLaren 720S entrega uma experiência de condução pura, precisa e eletrizante.",
+            "descricao": "Supercarro britânico com motor V8 biturbo de 720 cv. Aceleração de 0 a 100 km/h em 2,9 segundos. Design futurista e aerodinâmico com chassi de fibra de carbono para performance extrema.",
             "novo": false
         },
         {
@@ -57,7 +57,7 @@
             "valor": "R$ 60.000.000",
             "cor": "azul e preto",
             "imagem": "assets/modelo6.png",
-            "descricao": "O Bugatti Chiron é o ápice da engenharia automotiva, um hipercarro que combina luxo extremo com uma potência colossal. Equipado com um motor W16 quadriturbo de 8.0 litros, o Chiron entrega impressionantes 1.500 cavalos de potência, alcançando velocidades superiores a 400 km/h. Sua aceleração é de tirar o fôlego, indo de 0 a 100 km/h em cerca de 2,4 segundos. Além do desempenho brutal, o Chiron é um símbolo de exclusividade, com um acabamento artesanal minucioso, materiais nobres e tecnologia de ponta que proporcionam conforto e sofisticação incomparáveis. É uma obra-prima que redefine os limites do possível em um automóvel.",
+            "descricao": "Hipercarro com motor W16 quadriturbo de 1.500 cv. Acelera de 0 a 100 km/h em 2,4 segundos. Símbolo de exclusividade com acabamento artesanal, luxo extremo e tecnologia de ponta.",
             "novo": true
         },
         {
@@ -67,27 +67,27 @@
             "valor": "R$ 1.300.500",
             "cor": "chumbo",
             "imagem": "assets/modelo7.png",
-            "descricao":"O Nissan GT-R Nismo 2024 é a versão mais potente e refinada do icônico superesportivo japonês. Com motor V6 biturbo de 3,8 litros e 600 cv, oferece desempenho excepcional aliado à tração integral e transmissão de dupla embreagem. Seu design aerodinâmico conta com fibra de carbono e freios cerâmicos, enquanto o interior traz acabamento premium e detalhes exclusivos. O GT-R Nismo 2024 é perfeito para quem busca alta performance com estilo e tradição." ,
-            "novo": false   
-         },  
-         {
+            "descricao": "Superesportivo japonês com motor V6 biturbo de 600 cv. Versão mais potente e refinada do icônico GT-R, com design aerodinâmico, tração integral e interior premium.",
+            "novo": false
+        },
+        {
             "id": 8,
             "nome": "mustang shelby gt500",
             "potencia": "770 cv",
             "valor": "R$ 1.349.900",
             "cor": "branco com azul",
             "imagem": "assets/modelo8.jpg",
-            "descricao": "O Ford Mustang Shelby GT500 é um muscle car poderoso, equipado com um motor V8 supercharged de 5.2 litros que entrega mais de 770 cavalos. Com design agressivo, aerodinâmico e tecnologia avançada, ele oferece desempenho extremo e uma experiência de direção emocionante, sendo um dos carros mais icônicos e potentes da linha Mustang.",
+            "descricao": "Muscle car com motor V8 supercharged de 770 cv. Design agressivo e aerodinâmico, oferecendo desempenho extremo e experiência de direção emocionante.",
             "novo": true
         },
         {
             "id": 9,
             "nome": "Dodge Challenger SRT Demon 170",
             "potencia": "1039 cv",
-            "valor": "R$ 2.100.000 ",
+            "valor": "R$ 2.100.000",
             "cor": "cinza",
             "imagem": "assets/modelo10.png",
-            "descricao": "O Dodge Challenger SRT Demon 170 é um muscle car fora de série, projetado para entregar potência e desempenho extremos. Seu motor V8 supercharged de 6.2 litros produz incríveis 1.039 cavalos de potência, fazendo dele um dos carros de produção mais potentes e rápidos do mundo. Com foco total em arrancadas, o Demon 170 conta com tecnologias avançadas para maximizar tração e controle, como pneus drag radiais e sistemas eletrônicos de performance.",
+            "descricao": "Muscle car extremo com motor V8 supercharged de 1.039 cv. Focado em arrancadas, é um dos carros de produção mais potentes do mundo, com tecnologias avançadas para tração e controle.",
             "novo": true
         }
     ]
