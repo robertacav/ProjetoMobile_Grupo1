@@ -6,7 +6,7 @@
             "potencia": "1000 cv",
             "valor": "R$ 5.500.000",
             "cor": "vermelho",
-            "imagem": "assets/modelo1.png",
+            "imagem": "../../assets/modelo1.png",
             "descricao": "Supercarro híbrido plug-in com motor V8 biturbo e três motores elétricos totalizando 1.000 cv. Acelera de 0 a 100 km/h em 2,5 segundos, combinando design aerodinâmico, eficiência e performance característica da Ferrari.",
             "novo": true
         },
@@ -16,7 +16,7 @@
             "potencia": "770 cv",
             "valor": "R$ 6.200.000",
             "cor": "roxo",
-            "imagem": "assets/modelo2.png",
+            "imagem": "../../assets/modelo2.png",
             "descricao": "Supercarro híbrido com motor V8 biturbo e três motores elétricos de 1.000 cv. Aceleração de 0 a 100 km/h em 2,5 segundos. Design aerodinâmico que une alta performance, eficiência e identidade esportiva.",
             "novo": true
         },
@@ -26,7 +26,7 @@
             "potencia": "571 cv",
             "valor": "R$ 3.800.000",
             "cor": "branco",
-            "imagem": "assets/modelo3.png",
+            "imagem": "../../assets/modelo3.png",
             "descricao": "Sinônimo de luxo e sofisticação com motor V12 biturbo. Oferece experiência serena e refinada, com interior premium e acabamentos artesanais para máximo conforto e exclusividade.",
             "novo": false
         },
@@ -36,7 +36,7 @@
             "potencia": "630 cv",
             "valor": "R$ 4.500.000",
             "cor": "branco",
-            "imagem": "assets/modelo4.png",
+            "imagem": "../../assets/modelo4.png",
             "descricao": "Superesportivo com motor V6 biturbo de 630 cv. Acelera de 0 a 100 km/h em 2,9 segundos. Design elegante e aerodinâmico, unindo tradição e inovação com tecnologia de ponta.",
             "novo": true
         },
@@ -46,7 +46,7 @@
             "potencia": "720 cv",
             "valor": "R$ 5.800.000",
             "cor": "azul",
-            "imagem": "assets/modelo5.png",
+            "imagem": "../../assets/modelo5.png",
             "descricao": "Supercarro britânico com motor V8 biturbo de 720 cv. Aceleração de 0 a 100 km/h em 2,9 segundos. Design futurista e aerodinâmico com chassi de fibra de carbono para performance extrema.",
             "novo": false
         },
@@ -55,8 +55,8 @@
             "nome": "Bugatti Chiron",
             "potencia": "1500 cv",
             "valor": "R$ 60.000.000",
-            "cor": "azul e preto",
-            "imagem": "assets/modelo6.png",
+            "cor": "preto",
+            "imagem": "../../assets/modelo6.png",
             "descricao": "Hipercarro com motor W16 quadriturbo de 1.500 cv. Acelera de 0 a 100 km/h em 2,4 segundos. Símbolo de exclusividade com acabamento artesanal, luxo extremo e tecnologia de ponta.",
             "novo": true
         },
@@ -66,7 +66,7 @@
             "potencia": "600 cv",
             "valor": "R$ 1.300.500",
             "cor": "chumbo",
-            "imagem": "assets/modelo7.png",
+            "imagem": "../../assets/modelo7.png",
             "descricao": "Superesportivo japonês com motor V6 biturbo de 600 cv. Versão mais potente e refinada do icônico GT-R, com design aerodinâmico, tração integral e interior premium.",
             "novo": false
         },
@@ -76,7 +76,7 @@
             "potencia": "770 cv",
             "valor": "R$ 1.349.900",
             "cor": "branco com azul",
-            "imagem": "assets/modelo8.jpg",
+            "imagem": "../../assets/modelo8.jpg",
             "descricao": "Muscle car com motor V8 supercharged de 770 cv. Design agressivo e aerodinâmico, oferecendo desempenho extremo e experiência de direção emocionante.",
             "novo": true
         },
@@ -86,7 +86,7 @@
             "potencia": "1039 cv",
             "valor": "R$ 2.100.000",
             "cor": "cinza",
-            "imagem": "assets/modelo10.png",
+            "imagem": "../../assets/modelo10.png",
             "descricao": "Muscle car extremo com motor V8 supercharged de 1.039 cv. Focado em arrancadas, é um dos carros de produção mais potentes do mundo, com tecnologias avançadas para tração e controle.",
             "novo": true
         }
