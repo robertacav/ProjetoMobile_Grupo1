@@ -700,3 +700,11 @@ font-size: 18px;
     padding-right: 100px;
     text-align: justify;
 }
+.telefone{
+    text-decoration: none;
+    color: white;
+}
+.email{
+    text-decoration: none;
+    color: white;
+}
