@@ -60,6 +60,16 @@ Pronto! O site vai funcionar
 
 📞 Contato
 
-Se tiver dúvidas pode me chamar! 😊
+Se tiver dúvidas pode nos chamar! 😊
 
-Projeto feito por um aluno aprendendo desenvolvimento web 🎓
+Projeto feito pelos alunos: 
+
+Leodair🎓
+
+Bryan🎓
+
+Ana Roberta🎓
+
+Mayara🎓
+
+Lucas🎓
