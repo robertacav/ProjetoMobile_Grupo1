@@ -14,7 +14,12 @@ Páginas feitas:
 
 Home (index.html) - Página principal com carros em destaque
 
+<img width="262" height="578" alt="image" src="https://github.com/user-attachments/assets/0137cd39-dfc6-42ed-9c95-19af98359941" />  <img width="268" height="586" alt="image" src="https://github.com/user-attachments/assets/1323ecb8-414d-42b6-b4ed-ab9d4755126c" />  <img width="266" height="580" alt="image" src="https://github.com/user-attachments/assets/d67e5a2e-4de5-4e53-8a0a-0c67cf309947" />
+
 Carros (carros.html) - Catálogo completo
+
+<img width="262" height="575" alt="image" src="https://github.com/user-attachments/assets/e14c88a7-d690-4124-bb29-dbdccd8aec9e" /> <img width="267" height="577" alt="image" src="https://github.com/user-attachments/assets/a683be87-594a-4c49-9f6e-2c39048019ce" />
+
 
 Trade (trade.html) - Para vender seu carro
 
