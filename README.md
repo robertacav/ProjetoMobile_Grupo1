@@ -14,11 +14,11 @@ Páginas feitas:
 
 Home (index.html) - Página principal com carros em destaque
 
-Carros (/pages/carros/carros.html) - Catálogo completo
+Carros (carros.html) - Catálogo completo
 
-Trade (/pages/trade/trade.html) - Para vender seu carro
+Trade (trade.html) - Para vender seu carro
 
-Sobre Nós (/pages/SobreNos/sobrenos.html) - História da empresa
+Sobre Nós (sobrenos.html) - História da empresa
 
 ---
 
