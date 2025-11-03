@@ -88,8 +88,16 @@ Lucas🎓
 
 ---
 
-SPRINT REVIEW
+🚀 SPRINT REVIEW
 
 [Sprint Review - CarsLuxury.docx.pdf](https://github.com/user-attachments/files/23302027/Sprint.Review.-.CarsLuxury.docx.pdf)
+
+---
+
+🚀 BACKLOG DO PRODUTO
+
+[Backlog do Produto - CarsLuxury.docx.pdf](https://github.com/user-attachments/files/23302083/Backlog.do.Produto.-.CarsLuxury.docx.pdf)
+
+
 
 
