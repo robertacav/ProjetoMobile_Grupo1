@@ -23,7 +23,14 @@ Carros (carros.html) - Catálogo completo
 
 Trade (trade.html) - Para vender seu carro
 
+<img width="269" height="582" alt="image" src="https://github.com/user-attachments/assets/2e34802e-ad6c-423b-99df-7f1765782692" /> <img width="267" height="580" alt="image" src="https://github.com/user-attachments/assets/b02f8280-147c-4ff6-9de5-073722e0a094" />
+
+
+
 Sobre Nós (sobrenos.html) - História da empresa
+
+<img width="264" height="573" alt="image" src="https://github.com/user-attachments/assets/fcc02234-ee94-4f49-804c-efd3e6f8b0f4" /> <img width="265" height="580" alt="image" src="https://github.com/user-attachments/assets/64a7a228-a6a1-4cd2-ba0f-e5705a21ea14" />
+
 
 ---
 
